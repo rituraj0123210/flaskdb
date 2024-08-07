@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 
-from db.create import createTables, createUser
-from db.GetUsers import getAllusers, getSpecificUsers
-from db.UserOpration import updateUserAccess
+from create import createTables, createUser
+from GetUsers import getAllusers, getSpecificUsers
+from UserOpration import updateUserAccess
 
 app= Flask(__name__)
 
